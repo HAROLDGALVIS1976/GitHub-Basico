@@ -4,32 +4,29 @@ AGREGAR PROYECTO A GITHUB CON GIT
 *primero creamos nuevo repositorio en GitHub
 y copiamos la url creada:
 
-https://github.com/HAROLDGALVIS1976/calzado-urban-capas.git
+https://github.com/HAROLDGALVIS1976/GitHub-Basico.git
 
-*para no alterar el proyecto Real clonamos con la Url creada para crear una carpeta vacia donde vamos a guardar todos los archivo del Proyecto Original
+git clone https://github.com/HAROLDGALVIS1976/GitHub-Basico.git   -->  descarga proyecto en carpeta desde la nube de GitHub
 
-git clone https://github.com/HAROLDGALVIS1976/calzado-urban-capas.git   -->  descarga proyecto en carpeta desde la nube de GitHub
+*pegamos todas las carpetas del proyecto en la carpeta que creada y abrimos el git-bash en la ubicacion a subir al repositorio creado con anticipacion en GitHub
 
-*pegamos todas las carpetas del proyecto en la carpeta que crea el git clone y abrimos de nuevo el
-git-bash en la ubicacion a subir al repo
-
-git add .  ---para agregar todo el contenido
+git init ---> inicializar git
+git add  -A  ---para agregar todo el contenido
 git status  -- verificar que se sube a GitHub
 git commit -m "commit inicial"  --- copia a local
-git branch -M main --subir a la rama principal
-git remote add origin https://github.com/HAROLDGALVIS1976/calzado-urban-capas.git  -- origen remoto donde se subira
-git push -u origin main
-
+git remote add origin https://github.com/HAROLDGALVIS1976/GitHub-Basico.git  -- origen remoto donde se subira
+git push -u origin master
 
 Y LISTO YA HEMOS SUBIDO EL PROYECTO
+
+
 ***********************************
 SUBIR CAMBIOS AL REPOSITORIO GitHub
 
-git add .  ---para agregar todo el contenido a local
+git add  -A  ---para agregar todo el contenido a local
 git status  -- verificar que se sube a GitHub
-git commit -m "first commit"  --- copia a local
-git branch -M main --subir a la rama principal
-git push -u origin main
+git commit -m " VERSION 2"  --- copia a local
+git push -u origin master
 
 *******************************************
 averiguar quien ha realizado cambios 
@@ -68,5 +65,4 @@ https://github.com/HAROLDGALVIS1976/Proyecto-.Net-EntityFramework.gitgit branch
 
 https://github.com/HAROLDGALVIS1976/proyecto-capas-Escritorio
 
-https://github.com/HAROLDGALVIS1976/Comados-Basico-GitHub-GitBash.git
-
+https://github.com/HAROLDGALVIS1976/GitHub-Basico.git
