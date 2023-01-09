@@ -1,0 +1,62 @@
+
+AGREGAR PROYECTO A GITHUB CON GIT
+
+1)Descarga de git para Windows:  https://gitforwindows.org/
+
+*Pegamos las carpetas de nuestro proyecto y abrimos el gitCMD
+Y vamos a la direccion de proyecto a subir con:
+cd C:\Users\Administrator\Downloads\ventas web
+
+ ---> inicializar git
+git init 
+git status  -- verificar que se sube a GitHub
+git add  -A  ---para agregar todo el contenido
+git commit -m "Version 12-08-2022"  --- copia a local
+git remote add origin https://github.com/HAROLDGALVIS1976/GitHub-Basico
+git push  origin master
+
+***************************************
+Y LISTO YA HEMOS SUBIDO EL PROYECTO
+*******************************************
+averiguar quien ha realizado cambios 
+git log  -- para averigura quien subio cambios y cuando
+
+***********************************************
+CREAR BRANCH ADICIONAL---> RAMAS
+
+git branch Desarrolla1  ---> crear nueva rama
+git checkout Desarrolla1 --> ir en la nueva linea
+
+git checkout -B Desarrolla1 -->crear nueva rama e ir a esa nueva rama de una vez
+git commit -m Desarrolla1 --> alamcenar en local
+git push origin Desarrolla1 --> enviar al nuevo branch
+
+git checkout main --> ir al branch principal
+
+git branch Desarrollador_2  ---> crear nueva rama
+git checkout Desarrollador_2 --> ir en la nueva linea
+git push origin Desarrollador_2 --> enviar al nuevo branch
+
+git fetch  ---> se usa dentro de un branch en consola para actualizar cambios realizado
+git pull origin Desarrollador1 -- actualiza el repositorio en
+ remoto
+git pull origin main --> se usa para unir cambios de una rama a la rama principal main en local
+
+git checkou Desarrollador2 --> ir a la rama Desarrollador2
+git merge
+
+PROYECTOS PUBLICOS EN GITHUB:
+******************************************
+
+https://github.com/HAROLDGALVIS1976/calzado-urban-capas.git
+
+https://github.com/HAROLDGALVIS1976/Proyecto-.Net-EntityFramework.gitgit branch
+
+https://github.com/HAROLDGALVIS1976/proyecto-capas-Escritorio
+
+https://github.com/HAROLDGALVIS1976/GitHub-Basico.git
+*******************************************
+Descargas desde Microsoft
+
+https://my.visualstudio.com/downloads
+******************************************
