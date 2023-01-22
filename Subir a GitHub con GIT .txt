@@ -5,7 +5,7 @@ AGREGAR PROYECTO A GITHUB CON GIT
 
 *Pegamos las carpetas de nuestro proyecto y abrimos el gitCMD
 Y vamos a la direccion de proyecto a subir con:
-cd C:\Users\Administrator\Downloads\ventas web
+cd C:\
 
  ---> inicializar git
 git init 
